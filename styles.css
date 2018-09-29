@@ -1,0 +1,27 @@
+section {
+  padding: 8rem 0 7rem;
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+img {
+  max-width: 100px;
+  height: auto; }
+
+.hero {
+  background: #00B4FF;
+  color: white; }
+
+.getting-it {
+  background: #00B4FF;
+  color: white; }
+  .getting-it code {
+    color: #515151; }
+  .getting-it.local {
+    padding-bottom: 0; }
+  .getting-it.cdn {
+    padding-top: 0; }
