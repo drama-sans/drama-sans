@@ -1,0 +1,19 @@
+@import './common';
+
+section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}

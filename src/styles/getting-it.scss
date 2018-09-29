@@ -1,0 +1,19 @@
+@import './common';
+
+
+.getting-it {
+  background: $accent-color;
+  color: $text-color-secondary;
+
+  code {
+    color: $text-color-primary;
+  }
+
+  &.local {
+    padding-bottom: 0;
+  }
+
+  &.cdn {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "drama-sans",
+  "version": "1.0.0",
+  "description": "This is serious business.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass ./src/styles.scss ./dist/styles.css",
+    "cp": "ncp ./src/index.html ./dist/index.html && ncp ./src/assets ./dist/assets",
+    "build": "npm run sass && npm run cp",
+    "watch": "nodemon --exec \"npm run build\" ./src/**/* -e html,scss,js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4"
+  }
+}
