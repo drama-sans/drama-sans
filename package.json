@@ -8,7 +8,8 @@
     "sass": "node-sass ./src/styles.scss ./dist/styles.css",
     "cp": "ncp ./src/index.html ./dist/index.html && ncp ./src/assets ./dist/assets",
     "build": "npm run sass && npm run cp",
-    "watch": "nodemon --exec \"npm run build\" ./src/**/* -e html,scss,js"
+    "watch": "nodemon --exec \"npm run build\" ./src/**/* -e html,scss,js",
+    "deploy:gh-pages": "npm run build && git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "MIT",
