@@ -22,6 +22,8 @@ a.button.button-primary {
   background-color: $accent-color;
   border-color: white;
   border-width: 2px;
+  font-size: 18px;
+  line-height: 32px;
   transition: all 0.3s;
 
   &:hover, &:focus, &:active {
@@ -44,4 +46,8 @@ pre {
 
 code {
   border: none;
+}
+
+p {
+  font-size: 18px;
 }
