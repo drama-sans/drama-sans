@@ -17,3 +17,31 @@ img {
   max-width: 100px;
   height: auto;
 }
+
+a.button.button-primary {
+  background-color: $accent-color;
+  border-color: white;
+  border-width: 2px;
+  transition: all 0.3s;
+
+  &:hover, &:focus, &:active {
+    background-color: white;
+    color: $accent-color;
+    border-color: white;
+  }
+
+  &:focus, &:active {
+    opacity: 0.6;
+  }
+
+}
+
+pre {
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+}
+
+code {
+  border: none;
+}

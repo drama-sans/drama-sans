@@ -1,6 +1,15 @@
 @import './common';
 
 .hero {
-  background: $accent-color;
+  align-items: center;
+  background: url('./assets/images/hero-bg.png') center center no-repeat;
+  background-color: $accent-color;
+  background-size: cover;
   color: $text-color-secondary;
+  display: flex;
+  height: 600px;
+
+  h1 {
+    font-size: 84px;
+  }
 }
